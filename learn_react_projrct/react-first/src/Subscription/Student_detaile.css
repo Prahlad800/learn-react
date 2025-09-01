@@ -1,0 +1,22 @@
+.student-list {
+  padding: 10px;
+  background: #dcdfe1;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.student-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  background: #a2a49a;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  font-size: 16px;
+  color: #121010;
+}

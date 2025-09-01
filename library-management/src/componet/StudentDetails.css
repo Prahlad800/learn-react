@@ -1,0 +1,12 @@
+.student-card {
+  border: 1px solid #444;
+  background-color: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.student-name {
+  font-weight: bold;
+  color: #2c3e50;
+}

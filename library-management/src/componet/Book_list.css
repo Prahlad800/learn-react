@@ -1,0 +1,40 @@
+.books-list-container {
+  background: #fff3e0;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 24px auto;
+  box-shadow: 0 2px 8px #ffcc80;
+}
+
+.books-list-title {
+  color: #ef6c00;
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.books-list {
+  list-style: none;
+  padding: 0;
+}
+
+.books-list-item {
+  margin-bottom: 10px;
+  padding: 8px;
+  background: #ffe0b2;
+  border-radius: 4px;
+}
+
+.book-title {
+  color: #d84315;
+  font-weight: 600;
+}
+
+.book-desc {
+  color: #6d4c41;
+}
+
+.no-books {
+  color: #bdbdbd;
+  font-style: italic;
+}

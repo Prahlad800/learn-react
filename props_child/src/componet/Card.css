@@ -1,0 +1,23 @@
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px #e3f2fd;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 24px #90caf9;
+}
+
+.card-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.card-content {
+  color: #333;
+}

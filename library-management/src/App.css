@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(120deg, #f8fafc 0%, #e3f2fd 100%);
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px #bbdefb;
+}
+
+.logo {
+  height: 5em;
+  padding: 1em;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #1976d2aa);
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #e3f2fd;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+  font-size: 1rem;
+  margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+  #root {
+    padding: 1rem 0.2rem;
+  }
+  .header {
+    font-size: 1.5rem;
+  }
+}

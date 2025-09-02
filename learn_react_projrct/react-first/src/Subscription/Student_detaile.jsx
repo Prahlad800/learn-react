@@ -1,6 +1,8 @@
 import { useState } from "react"
+import Filter from "./filter"
 import './Student_detaile.css'
-export default function (props) {
+export default function StudentDetaile(props) {
+    const [selectedAge, setSelectedAge] = useState('')
 
     const Students=[
         {
@@ -84,14 +86,16 @@ export default function (props) {
             number: "9595959595"
         }
     ]
-
+    const filteredStudents = selectedAge
+        ? Students.filter(student => student.age === Number(selectedAge))
+        : Students
 
 
     return (
         <div className="student-list">
+            <Filter selectedAge={selectedAge} onAgeChange={setSelectedAge} />
             <ul>
-
-         {Students.map(student => (
+         { filteredStudents.map(student => (
                     <li key={student.id}>
                         {student.name} | {student.class} | Age: {student.age} | DOB: {student.dob} | Phone: {student.number}
                     </li>

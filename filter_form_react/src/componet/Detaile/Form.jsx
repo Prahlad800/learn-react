@@ -7,6 +7,7 @@ export default function Form(props) {
     email: "",
     number: "",
     date: "",
+    age: "",
   });
 
   const handlAll = (events) => {
@@ -55,6 +56,14 @@ export default function Form(props) {
           className="form-input"
           onChange={handlAll}
           value={getForm.number}
+        />
+        <label className="form-label">Age</label>
+        <input
+          type="number"
+          name="age"
+          className="form-input"
+          onChange={handlAll}
+          value={getForm.age}
         />
 
         <button type="submit" className="form-button">
